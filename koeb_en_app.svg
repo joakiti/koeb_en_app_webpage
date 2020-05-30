@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="258" height="169" viewBox="0 0 258 169">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-iPhone_X_XS_11_Pro_1);
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        font-family: ArialMT, Arial;
+        letter-spacing: 0.8em;
+      }
+
+      .cls-3 {
+        fill: #e5c3c3;
+      }
+
+      .cls-4 {
+        fill: #ebf89f;
+      }
+
+      .cls-5 {
+        fill: #b8ddbf;
+      }
+
+      .cls-6 {
+        fill: #b7def2;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #75a4c1;
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clip-iPhone_X_XS_11_Pro_1">
+      <rect width="258" height="169"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_11_Pro_1" data-name="iPhone X/XS/11 Pro – 1" class="cls-1">
+    <text id="KØBENAPP" class="cls-2" transform="translate(18 117)"><tspan x="0" y="0">KØBENAPP</tspan></text>
+    <path id="Rectangle_1" data-name="Rectangle 1" class="cls-3" d="M10,0H45A10,10,0,0,1,55,10V66a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(18 28)"/>
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-4" d="M10,0H45A10,10,0,0,1,55,10V77a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(73 17)"/>
+    <path id="Rectangle_3" data-name="Rectangle 3" class="cls-5" d="M10,0H45A10,10,0,0,1,55,10V66a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(128 28)"/>
+    <path id="Rectangle_4" data-name="Rectangle 4" class="cls-6" d="M10,0H45A10,10,0,0,1,55,10V77a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(183 17)"/>
+    <path id="Path_1" data-name="Path 1" class="cls-7" d="M162,324.825c71.378,27.5,66.214,0,113.086,0s47.236,28.128,106.9,0" transform="translate(-143 -193)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-7" d="M162,324.825c71.378,27.5,66.214,0,113.086,0s47.236,28.128,106.9,0" transform="translate(-143 -184)"/>
+  </g>
+</svg>
