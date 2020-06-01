@@ -1,11 +1,527 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom, darkslategrey 60%, floralwhite 0%);
-    height:100vh;
-    text-align:center;
-    color:#fff;
+    background: #fefefe;
+    color: #3E454C;
+    display: block;
+
+    font-size: 18px;
 }
+
+.home_title {
+    margin-left: 1rem;
+    font-size: 3.5em;
+    width: calc(50% - 1.5rem);
+    text-align: left;
+}
+
+.home_title em {
+    font-style: normal;
+    color: #ffffff;
+}
+
+.app_item {
+    width: calc(33.3333333333% - 1.3333333333rem);
+    float: left;
+    margin-left: 1rem;
+}
+
+.home_work h2 {
+    font-size: 2em;
+    float: left;
+    margin-left: 1rem;
+    font-family: "Trocchi", Palatino, serif
+}
+
+.container {
+    text-align: center
+}
+
+.home_work p {
+    text-align: center
+}
+
+.home_work {
+    float: left;
+    margin-top: 5rem;
+}
+
+.about_us {
+    float: right;
+    display: flex;
+    align-content: space-around;
+}
+
+.ikon {
+    border-radius: 50%  ;
+}
+
+.vision {
+    border-radius: 50px;
+    background-color: lightslategray;
+    font-size: 3.5em;
+    padding: 50px;
+    color: black;
+    margin-bottom: 35px;
+}
+
+.home_work img {
+    max-width: 30%;
+    height: auto;
+}
+
+.l-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+p {
+    color: black
+}
+
+h1 {
+    color: black
+}
+
+h2 {
+    color: #3e454c;
+    font-family: Trocchi, "Trocchi", serif;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
 
 img {
 
+}
+
+html {
+    box-sizing: border-box
+}
+
+*, *::after, *::before {
+    box-sizing: inherit
+}
+
+body {
+    margin: 0;
+    background: #fefefe;
+    color: #3E454C;
+    font-size: 18px
+}
+
+a {
+    color: #2185C5
+}
+
+body {
+    font-family: "Merriweather", Helvetica, "Helvetica Neue", Arial, sans-serif
+}
+
+h1, h2, h3 {
+    font-family: "Trocchi", Palatino, serif
+}
+
+h2, h3 {
+    font-weight: 400
+}
+
+.l-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem
+}
+
+.l-grid::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+.home {
+    margin-bottom: 3rem
+}
+
+@media only screen and (min-width: 415px) {
+    .home__title {
+        margin-top: 6rem;
+        font-size: 3.5em;
+        width: calc(50% - 1.5rem);
+        float: left;
+        margin-left: 1rem
+    }
+}
+
+@media only screen and (min-width: 415px) {
+    .home__subheading {
+        font-size: 2em;
+        width: calc(66.6666666667% - 1.6666666667rem);
+        float: left;
+        margin-left: 1rem
+    }
+}
+
+.home em {
+    font-style: normal;
+    color: #FF7F66
+}
+
+.home__description {
+    width: calc(50% - 1.5rem);
+    float: left;
+    margin-left: 1rem;
+    margin-left: calc(25% - 1.25rem + 2rem)
+}
+
+.home__card-grid {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: calc(100% + 2rem)
+}
+
+.home__card-grid::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+.home__card-grid-item {
+    width: calc(100% - 2rem);
+    float: left;
+    margin-left: 1rem;
+    margin-top: 1rem
+}
+
+@media only screen and (min-width: 415px) {
+    .home__card-grid-item {
+        width: calc(33.3333333333% - 1.3333333333rem);
+        float: left;
+        margin-left: 1rem
+    }
+}
+
+.home__card-grid-item-link {
+    outline: none
+}
+
+.home__work {
+    margin-top: 3rem
+}
+
+@media only screen and (min-width: 415px) {
+    .home__work {
+        margin-top: 5rem
+    }
+}
+
+.home__projects {
+    margin-top: 6rem
+}
+
+.work__title {
+    text-align: center;
+    font-size: 3em
+}
+
+.work__visit-button {
+    text-align: center
+}
+
+@media only screen and (min-width: 415px) {
+    .work__content {
+        width: calc(50% - 1.5rem);
+        float: left;
+        margin-left: 1rem;
+        margin-left: calc(25% - 1.25rem + 2rem)
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .simple__content {
+        width: calc(50% - 1.5rem);
+        float: left;
+        margin-left: 1rem
+    }
+}
+
+.button {
+    background: #FF7F66;
+    color: #fefefe;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    border-radius: 0.4em;
+    transition: background-color .3s ease
+}
+
+.home_work_apps {
+    margin-top: 40px
+}
+.home_work_apps p {
+    margin-top: 20px
+}
+
+.button--large {
+    font-size: 1.2em
+}
+
+.button:hover {
+    background-color: #ff9480
+}
+
+.logo {
+    display: flex;
+    align-items: center
+}
+
+.logo__svg {
+    width: 2rem
+}
+
+.logo__gradient {
+    opacity: 0;
+    transition: opacity .3s ease
+}
+
+.logo:hover .logo__gradient {
+    opacity: 1
+}
+
+.logo__title {
+    margin: 0 0 0 1rem;
+    font-size: 1em;
+    font-weight: 100;
+    opacity: 0.1;
+    transition: opacity .3s ease
+}
+
+.logo:hover .logo__title {
+    opacity: 1
+}
+
+.header {
+    padding: 1rem 0
+}
+
+.header__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center
+}
+
+@media only screen and (min-width: 750px) {
+    .header__inner {
+        flex-direction: row
+    }
+}
+
+.header__logo-link {
+    text-decoration: none;
+    color: #3E454C
+}
+
+.header__nav {
+    align-self: center;
+    margin-top: 1rem
+}
+
+@media only screen and (min-width: 750px) {
+    .header__nav {
+        align-self: auto;
+        margin-top: 0
+    }
+}
+
+.mainnav {
+    font-family: "Trocchi", Palatino, serif
+}
+
+.mainnav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex
+}
+
+.mainnav__list-item + * {
+    margin-left: 1rem
+}
+
+.mainnav__list-item a {
+    opacity: 0.5;
+    font-size: 0.9em;
+    color: #3E454C;
+    text-decoration: none;
+    transition: opacity .3s ease
+}
+
+.mainnav__list-item a:hover {
+    opacity: 1
+}
+
+.mainnav__list-item--active a {
+    opacity: 0.9
+}
+
+.perspective-card {
+    position: relative;
+    transition: transform .3s ease;
+}
+
+.perspective-card:hover {
+    transform: scale(1.025)
+}
+
+.perspective-card__container {
+    will-change: transform;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.perspective-card--enter-exit .perspective-card__container {
+    transition: transform .3s ease
+}
+
+.perspective-card__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #eee;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px
+}
+
+.perspective-card__shadow {
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0px 20px rgba(62, 69, 76, 0.3);
+    opacity: 0;
+    transition: opacity .3s ease
+}
+
+.perspective-card:hover .perspective-card__shadow {
+    opacity: 1
+}
+
+.perspective-card__text {
+    z-index: 1;
+    color: #fff;
+    font-size: 1.5em;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
+}
+
+.perspective-card--enter-exit .perspective-card__text {
+    transition: transform .3s ease
+}
+
+@media only screen and (min-width: 750px) {
+    .showcase {
+        padding: 1.5rem 0
+    }
+}
+
+.showcase__container {
+    margin: 0 auto;
+    width: 300px;
+    height: 180px;
+    overflow-y: hidden;
+    transform: perspective(1200px) rotateY(15deg);
+    position: relative;
+    border: 1px solid rgba(62, 69, 76, 0.8);
+    box-shadow: 1.5rem 1.5rem 0 rgba(62, 69, 76, 0.1)
+}
+
+@media only screen and (min-width: 415px) {
+    .showcase__container {
+        width: 400px;
+        height: 240px
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .showcase__container {
+        width: 600px;
+        height: 360px;
+        overflow-y: scroll
+    }
+}
+
+.showcase__toolbar {
+    background-color: #ddd;
+    overflow: auto;
+    pointer-events: none
+}
+
+.showcase__toolbar-title {
+    border-radius: 0.2rem;
+    font-size: 0.4em;
+    display: block;
+    padding: 0.2em 0.5em;
+    margin: 0.3rem;
+    background: #fefefe
+}
+
+.showcase__image {
+    width: 100%;
+    display: block
+}
+
+.footer {
+    margin-top: 5rem
+}
+
+.footer__contact {
+    opacity: 0.8;
+    font-size: 0.8em;
+    text-align: center
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+.social__link {
+    color: #6c7884;
+    text-decoration: none;
+    transition: color .3s ease
+}
+
+.social__link:hover {
+    color: #3E454C
+}
+
+.social__item {
+    text-decoration: none
+}
+
+.social__item + * {
+    margin-left: 2rem
+}
+
+.social__icon {
+    font-size: 2em
+}
+
+.social__text {
+    display: none
 }
