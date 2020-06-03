@@ -56,10 +56,10 @@ body {
 }
 
 .vision {
-    border-radius: 50px;
+    border-radius: 35px;
     background-color: lightslategray;
     font-size: 3.5em;
-    padding: 50px;
+    padding: 35px;
     color: black;
     margin-bottom: 35px;
 }
@@ -88,7 +88,7 @@ h2 {
     color: #3e454c;
     font-family: Trocchi, "Trocchi", serif;
     font-weight: bolder;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 
